@@ -1,0 +1,1395 @@
+Informations à propos de la trame n.1
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (44:a6:1e:f5:e2:c0)
+	Destination : (44:a6:1e:f5:e2:c0)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 192.168.1.26, Dst: 80.94.177.183
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 52
+	Identification : 0xc4f8 (50424)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 192.168.1.26
+	Destination Adress : 80.94.177.183
+
+Transmission Control Protocol, Src Port : 56653, Dst Port = 80
+	Source Port : 56653
+	Destination Port : 80
+	Sequence Number (raw) : 2620979032
+	Acknowledgment Number (raw) : 0
+	1000 .... = Header Length : 32 bytes (8)
+	Flags : 0x002 (SYN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...0 .... = Acknowledgment : Not set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..1. = Syn : Set
+		.... .... ...0 = Fin : Not set
+	Window : 64240
+	Checksum : 0xc3fe
+	Urgent Pointer : 0
+	Options : (12 bytes), Maximum Segment Size, No-Operation (NOP), Window Scale, No-Operation (NOP), No-Operation (NOP), SACK permitted
+		TCP Option - Maximum segment size : 1460 bytes
+		TCP Option - No-Operation (NOP)
+		TCP Option - Window scale : 8 (multiply by 256)
+		TCP Option - No-Operation (NOP)
+		TCP Option - No-Operation (NOP)
+		TCP Option - SACK permitted
+
+####################################################################################################
+
+Informations à propos de la trame n.2
+
+ETHERNET II, Src : (44:a6:1e:f5:e2:c0), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (44:a6:1e:f5:e2:c0)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 80.94.177.183, Dst: 192.168.1.26
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 44
+	Identification : 0x289e (10398)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 245
+	Protocol : TCP (6)
+	Header Checksum : 0x9955
+	Source Adress : 80.94.177.183
+	Destination Adress : 192.168.1.26
+
+Transmission Control Protocol, Src Port : 80, Dst Port = 56653
+	Source Port : 80
+	Destination Port : 56653
+	Sequence Number (raw) : 2691526277
+	Acknowledgment Number (raw) : 2620979033
+	0110 .... = Header Length : 24 bytes (6)
+	Flags : 0x012 (ACK) (SYN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..1. = Syn : Set
+		.... .... ...0 = Fin : Not set
+	Window : 4380
+	Checksum : 0x42ff
+	Urgent Pointer : 0
+	Options : (4 bytes), Maximum Segment Size
+		TCP Option - Maximum segment size : 1460 bytes
+
+####################################################################################################
+
+Informations à propos de la trame n.3
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (44:a6:1e:f5:e2:c0)
+	Destination : (44:a6:1e:f5:e2:c0)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 192.168.1.26, Dst: 80.94.177.183
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0xc4f9 (50425)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 192.168.1.26
+	Destination Adress : 80.94.177.183
+
+Transmission Control Protocol, Src Port : 56653, Dst Port = 80
+	Source Port : 56653
+	Destination Port : 80
+	Sequence Number (raw) : 2620979033
+	Acknowledgment Number (raw) : 2691526278
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x010 (ACK) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 64240
+	Checksum : 0xc3f2
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.4
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (44:a6:1e:f5:e2:c0)
+	Destination : (44:a6:1e:f5:e2:c0)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 192.168.1.26, Dst: 80.94.177.183
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 119
+	Identification : 0xc4fa (50426)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 192.168.1.26
+	Destination Adress : 80.94.177.183
+
+Transmission Control Protocol, Src Port : 56653, Dst Port = 80
+	Source Port : 56653
+	Destination Port : 80
+	Sequence Number (raw) : 2620979033
+	Acknowledgment Number (raw) : 2691526278
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x018 (ACK) (PSH) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 64240
+	Checksum : 0xc441
+	Urgent Pointer : 0
+
+Hypertext Transfer Protocol
+	GET / HTTP/1.1
+	Host: www.cegedim.com
+	User-Agent: curl/7.83.0
+	Accept: */*
+	
+	
+####################################################################################################
+
+Informations à propos de la trame n.5
+
+ETHERNET II, Src : (44:a6:1e:f5:e2:c0), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (44:a6:1e:f5:e2:c0)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 80.94.177.183, Dst: 192.168.1.26
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 153
+	Identification : 0x2b96 (11158)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 245
+	Protocol : TCP (6)
+	Header Checksum : 0x95f0
+	Source Adress : 80.94.177.183
+	Destination Adress : 192.168.1.26
+
+Transmission Control Protocol, Src Port : 80, Dst Port = 56653
+	Source Port : 80
+	Destination Port : 56653
+	Sequence Number (raw) : 2691526278
+	Acknowledgment Number (raw) : 2620979112
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x018 (ACK) (PSH) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 4380
+	Checksum : 0xdeff
+	Urgent Pointer : 0
+
+Hypertext Transfer Protocol
+	HTTP/1.0 301 Moved Permanently
+	Location: https://www.cegedim.com/
+	Connection: Keep-Alive
+	Content-Length: 0
+	
+	
+####################################################################################################
+
+Informations à propos de la trame n.6
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (44:a6:1e:f5:e2:c0)
+	Destination : (44:a6:1e:f5:e2:c0)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 192.168.1.26, Dst: 80.94.177.183
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0xc4fb (50427)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 192.168.1.26
+	Destination Adress : 80.94.177.183
+
+Transmission Control Protocol, Src Port : 56653, Dst Port = 80
+	Source Port : 56653
+	Destination Port : 80
+	Sequence Number (raw) : 2620979112
+	Acknowledgment Number (raw) : 2691526391
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x011 (ACK) (FIN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...1 = Fin : Set
+	Window : 64127
+	Checksum : 0xc3f2
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.7
+
+ETHERNET II, Src : (44:a6:1e:f5:e2:c0), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (44:a6:1e:f5:e2:c0)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 80.94.177.183, Dst: 192.168.1.26
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0x2e66 (11878)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 245
+	Protocol : TCP (6)
+	Header Checksum : 0x9391
+	Source Adress : 80.94.177.183
+	Destination Adress : 192.168.1.26
+
+Transmission Control Protocol, Src Port : 80, Dst Port = 56653
+	Source Port : 80
+	Destination Port : 56653
+	Sequence Number (raw) : 2691526391
+	Acknowledgment Number (raw) : 2620979113
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x010 (ACK) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 4459
+	Checksum : 0x59ac
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.8
+
+ETHERNET II, Src : (44:a6:1e:f5:e2:c0), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (44:a6:1e:f5:e2:c0)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 80.94.177.183, Dst: 192.168.1.26
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0x2e67 (11879)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 245
+	Protocol : TCP (6)
+	Header Checksum : 0x9390
+	Source Adress : 80.94.177.183
+	Destination Adress : 192.168.1.26
+
+Transmission Control Protocol, Src Port : 80, Dst Port = 56653
+	Source Port : 80
+	Destination Port : 56653
+	Sequence Number (raw) : 2691526391
+	Acknowledgment Number (raw) : 2620979113
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x011 (ACK) (FIN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...1 = Fin : Set
+	Window : 4459
+	Checksum : 0x59ab
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.9
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (44:a6:1e:f5:e2:c0)
+	Destination : (44:a6:1e:f5:e2:c0)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 192.168.1.26, Dst: 80.94.177.183
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0xc4fc (50428)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 192.168.1.26
+	Destination Adress : 80.94.177.183
+
+Transmission Control Protocol, Src Port : 56653, Dst Port = 80
+	Source Port : 56653
+	Destination Port : 80
+	Sequence Number (raw) : 2620979113
+	Acknowledgment Number (raw) : 2691526392
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x010 (ACK) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 64127
+	Checksum : 0xc3f2
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.10
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (44:a6:1e:f5:e2:c0)
+	Destination : (44:a6:1e:f5:e2:c0)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 197.184.1.26, Dst: 80.94.177.183
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 52
+	Identification : 0xc4f8 (50424)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 197.184.1.26
+	Destination Adress : 80.94.177.183
+
+Transmission Control Protocol, Src Port : 56653, Dst Port = 96
+	Source Port : 56653
+	Destination Port : 96
+	Sequence Number (raw) : 2620979032
+	Acknowledgment Number (raw) : 0
+	1000 .... = Header Length : 32 bytes (8)
+	Flags : 0x002 (SYN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...0 .... = Acknowledgment : Not set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..1. = Syn : Set
+		.... .... ...0 = Fin : Not set
+	Window : 64240
+	Checksum : 0xc3fe
+	Urgent Pointer : 0
+	Options : (12 bytes), Maximum Segment Size, No-Operation (NOP), Window Scale, No-Operation (NOP), No-Operation (NOP), SACK permitted
+		TCP Option - Maximum segment size : 1460 bytes
+		TCP Option - No-Operation (NOP)
+		TCP Option - Window scale : 8 (multiply by 256)
+		TCP Option - No-Operation (NOP)
+		TCP Option - No-Operation (NOP)
+		TCP Option - SACK permitted
+
+####################################################################################################
+
+Informations à propos de la trame n.11
+
+ETHERNET II, Src : (44:a6:1e:f5:e2:c0), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (44:a6:1e:f5:e2:c0)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 80.94.177.183, Dst: 197.184.1.26
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 44
+	Identification : 0x289e (10398)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 245
+	Protocol : TCP (6)
+	Header Checksum : 0x9955
+	Source Adress : 80.94.177.183
+	Destination Adress : 197.184.1.26
+
+Transmission Control Protocol, Src Port : 96, Dst Port = 56653
+	Source Port : 96
+	Destination Port : 56653
+	Sequence Number (raw) : 2691526277
+	Acknowledgment Number (raw) : 2620979033
+	0110 .... = Header Length : 24 bytes (6)
+	Flags : 0x012 (ACK) (SYN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..1. = Syn : Set
+		.... .... ...0 = Fin : Not set
+	Window : 4380
+	Checksum : 0x42ff
+	Urgent Pointer : 0
+	Options : (4 bytes), Maximum Segment Size
+		TCP Option - Maximum segment size : 1460 bytes
+
+####################################################################################################
+
+Informations à propos de la trame n.12
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (44:a6:1e:f5:e2:c0)
+	Destination : (44:a6:1e:f5:e2:c0)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 197.184.1.26, Dst: 80.94.177.183
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0xc4f9 (50425)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 197.184.1.26
+	Destination Adress : 80.94.177.183
+
+Transmission Control Protocol, Src Port : 56653, Dst Port = 96
+	Source Port : 56653
+	Destination Port : 96
+	Sequence Number (raw) : 2620979033
+	Acknowledgment Number (raw) : 2691526278
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x010 (ACK) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 64240
+	Checksum : 0xc3f2
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.13
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (44:a6:1e:f5:e2:c0)
+	Destination : (44:a6:1e:f5:e2:c0)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 197.184.1.26, Dst: 80.94.177.183
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 119
+	Identification : 0xc4fa (50426)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 197.184.1.26
+	Destination Adress : 80.94.177.183
+
+Transmission Control Protocol, Src Port : 56653, Dst Port = 96
+	Source Port : 56653
+	Destination Port : 96
+	Sequence Number (raw) : 2620979033
+	Acknowledgment Number (raw) : 2691526278
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x018 (ACK) (PSH) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 64240
+	Checksum : 0xc441
+	Urgent Pointer : 0
+
+Hypertext Transfer Protocol
+	GET / HTTP/1.1
+	Host: www.cegedim.com
+	User-Agent: curl/7.83.0
+	Accept: */*
+	
+	
+####################################################################################################
+
+Informations à propos de la trame n.14
+
+ETHERNET II, Src : (44:a6:1e:f5:e2:c0), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (44:a6:1e:f5:e2:c0)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 80.94.177.183, Dst: 197.184.1.26
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 153
+	Identification : 0x2b96 (11158)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 245
+	Protocol : TCP (6)
+	Header Checksum : 0x95f0
+	Source Adress : 80.94.177.183
+	Destination Adress : 197.184.1.26
+
+Transmission Control Protocol, Src Port : 96, Dst Port = 56653
+	Source Port : 96
+	Destination Port : 56653
+	Sequence Number (raw) : 2691526278
+	Acknowledgment Number (raw) : 2620979112
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x018 (ACK) (PSH) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 4380
+	Checksum : 0xdeff
+	Urgent Pointer : 0
+
+Hypertext Transfer Protocol
+	HTTP/1.0 301 Moved Permanently
+	Location: https://www.cegedim.com/
+	Connection: Keep-Alive
+	Content-Length: 0
+	
+	
+####################################################################################################
+
+Informations à propos de la trame n.15
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (44:a6:1e:f5:e2:c0)
+	Destination : (44:a6:1e:f5:e2:c0)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 197.184.1.26, Dst: 80.94.177.183
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0xc4fb (50427)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 197.184.1.26
+	Destination Adress : 80.94.177.183
+
+Transmission Control Protocol, Src Port : 56653, Dst Port = 96
+	Source Port : 56653
+	Destination Port : 96
+	Sequence Number (raw) : 2620979112
+	Acknowledgment Number (raw) : 2691526391
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x011 (ACK) (FIN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...1 = Fin : Set
+	Window : 64127
+	Checksum : 0xc3f2
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.16
+
+ETHERNET II, Src : (44:a6:1e:f5:e2:c0), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (44:a6:1e:f5:e2:c0)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 80.94.177.183, Dst: 197.184.1.26
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0x2e66 (11878)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 245
+	Protocol : TCP (6)
+	Header Checksum : 0x9391
+	Source Adress : 80.94.177.183
+	Destination Adress : 197.184.1.26
+
+Transmission Control Protocol, Src Port : 96, Dst Port = 56653
+	Source Port : 96
+	Destination Port : 56653
+	Sequence Number (raw) : 2691526391
+	Acknowledgment Number (raw) : 2620979113
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x010 (ACK) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 4459
+	Checksum : 0x59ac
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.17
+
+ETHERNET II, Src : (44:a6:1e:f5:e2:c0), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (44:a6:1e:f5:e2:c0)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 80.94.177.183, Dst: 197.184.1.26
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0x2e67 (11879)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 245
+	Protocol : TCP (6)
+	Header Checksum : 0x9390
+	Source Adress : 80.94.177.183
+	Destination Adress : 197.184.1.26
+
+Transmission Control Protocol, Src Port : 96, Dst Port = 56653
+	Source Port : 96
+	Destination Port : 56653
+	Sequence Number (raw) : 2691526391
+	Acknowledgment Number (raw) : 2620979113
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x011 (ACK) (FIN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...1 = Fin : Set
+	Window : 4459
+	Checksum : 0x59ab
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.18
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (44:a6:1e:f5:e2:c0)
+	Destination : (44:a6:1e:f5:e2:c0)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 197.184.1.26, Dst: 80.94.177.183
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0xc4fc (50428)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 197.184.1.26
+	Destination Adress : 80.94.177.183
+
+Transmission Control Protocol, Src Port : 56653, Dst Port = 96
+	Source Port : 56653
+	Destination Port : 96
+	Sequence Number (raw) : 2620979113
+	Acknowledgment Number (raw) : 2691526392
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x010 (ACK) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 64127
+	Checksum : 0xc3f2
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.19
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (72:3d:6d:da:c4:d9)
+	Destination : (72:3d:6d:da:c4:d9)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 192.168.57.53, Dst: 92.122.50.59
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 52
+	Identification : 0x3c90 (15504)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 192.168.57.53
+	Destination Adress : 92.122.50.59
+
+Transmission Control Protocol, Src Port : 63281, Dst Port = 80
+	Source Port : 63281
+	Destination Port : 80
+	Sequence Number (raw) : 2823268654
+	Acknowledgment Number (raw) : 0
+	1000 .... = Header Length : 32 bytes (8)
+	Flags : 0x002 (SYN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...0 .... = Acknowledgment : Not set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..1. = Syn : Set
+		.... .... ...0 = Fin : Not set
+	Window : 64240
+	Checksum : 0x88b9
+	Urgent Pointer : 0
+	Options : (12 bytes), Maximum Segment Size, No-Operation (NOP), Window Scale, No-Operation (NOP), No-Operation (NOP), SACK permitted
+		TCP Option - Maximum segment size : 1460 bytes
+		TCP Option - No-Operation (NOP)
+		TCP Option - Window scale : 8 (multiply by 256)
+		TCP Option - No-Operation (NOP)
+		TCP Option - No-Operation (NOP)
+		TCP Option - SACK permitted
+
+####################################################################################################
+
+Informations à propos de la trame n.20
+
+ETHERNET II, Src : (72:3d:6d:da:c4:d9), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (72:3d:6d:da:c4:d9)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 92.122.50.59, Dst: 192.168.57.53
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 52
+	Identification : 0x0000 (0)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 55
+	Protocol : TCP (6)
+	Header Checksum : 0xbb31
+	Source Adress : 92.122.50.59
+	Destination Adress : 192.168.57.53
+
+Transmission Control Protocol, Src Port : 80, Dst Port = 63281
+	Source Port : 80
+	Destination Port : 63281
+	Sequence Number (raw) : 2763434317
+	Acknowledgment Number (raw) : 2823268655
+	1000 .... = Header Length : 32 bytes (8)
+	Flags : 0x012 (ACK) (SYN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..1. = Syn : Set
+		.... .... ...0 = Fin : Not set
+	Window : 64240
+	Checksum : 0x54e4
+	Urgent Pointer : 0
+	Options : (12 bytes), Maximum Segment Size, No-Operation (NOP), No-Operation (NOP), SACK permitted, No-Operation (NOP), Window Scale
+		TCP Option - Maximum segment size : 1360 bytes
+		TCP Option - No-Operation (NOP)
+		TCP Option - No-Operation (NOP)
+		TCP Option - SACK permitted
+		TCP Option - No-Operation (NOP)
+		TCP Option - Window scale : 7 (multiply by 128)
+
+####################################################################################################
+
+Informations à propos de la trame n.21
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (72:3d:6d:da:c4:d9)
+	Destination : (72:3d:6d:da:c4:d9)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 192.168.57.53, Dst: 92.122.50.59
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0x3c91 (15505)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 192.168.57.53
+	Destination Adress : 92.122.50.59
+
+Transmission Control Protocol, Src Port : 63281, Dst Port = 80
+	Source Port : 63281
+	Destination Port : 80
+	Sequence Number (raw) : 2823268655
+	Acknowledgment Number (raw) : 2763434318
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x010 (ACK) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 260
+	Checksum : 0x88ad
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.22
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (72:3d:6d:da:c4:d9)
+	Destination : (72:3d:6d:da:c4:d9)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 192.168.57.53, Dst: 92.122.50.59
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 426
+	Identification : 0x3c92 (15506)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 192.168.57.53
+	Destination Adress : 92.122.50.59
+
+Transmission Control Protocol, Src Port : 63281, Dst Port = 80
+	Source Port : 63281
+	Destination Port : 80
+	Sequence Number (raw) : 2823268655
+	Acknowledgment Number (raw) : 2763434318
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x018 (ACK) (PSH) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 260
+	Checksum : 0x8a2f
+	Urgent Pointer : 0
+
+Hypertext Transfer Protocol
+	GET /roots/dstrootcax3.p7c HTTP/1.1
+	Host: apps.identrust.com
+	Connection: keep-alive
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+	Accept-Encoding: gzip, deflate
+	Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+	If-None-Match: "37d-5e1e6e25c9800"
+	If-Modified-Since: Mon, 20 Jun 2022 20:24:00 GMT
+	
+	
+####################################################################################################
+
+Informations à propos de la trame n.23
+
+ETHERNET II, Src : (72:3d:6d:da:c4:d9), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (72:3d:6d:da:c4:d9)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 92.122.50.59, Dst: 192.168.57.53
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0x7d55 (32085)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 55
+	Protocol : TCP (6)
+	Header Checksum : 0x3de8
+	Source Adress : 92.122.50.59
+	Destination Adress : 192.168.57.53
+
+Transmission Control Protocol, Src Port : 80, Dst Port = 63281
+	Source Port : 80
+	Destination Port : 63281
+	Sequence Number (raw) : 2763434318
+	Acknowledgment Number (raw) : 2823269041
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x010 (ACK) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 501
+	Checksum : 0x8ccc
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.24
+
+ETHERNET II, Src : (72:3d:6d:da:c4:d9), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (72:3d:6d:da:c4:d9)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 92.122.50.59, Dst: 192.168.57.53
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 310
+	Identification : 0x7d56 (32086)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 55
+	Protocol : TCP (6)
+	Header Checksum : 0x3cd9
+	Source Adress : 92.122.50.59
+	Destination Adress : 192.168.57.53
+
+Transmission Control Protocol, Src Port : 80, Dst Port = 63281
+	Source Port : 80
+	Destination Port : 63281
+	Sequence Number (raw) : 2763434318
+	Acknowledgment Number (raw) : 2823269041
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x018 (ACK) (PSH) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 501
+	Checksum : 0xef42
+	Urgent Pointer : 0
+
+Hypertext Transfer Protocol
+	HTTP/1.1 304 Not Modified
+	Content-Type: application/pkcs7-mime
+	Last-Modified: Mon, 20 Jun 2022 20:24:00 GMT
+	ETag: "37d-5e1e6e25c9800"
+	Cache-Control: max-age=3600
+	Expires: Tue, 06 Dec 2022 15:03:17 GMT
+	Date: Tue, 06 Dec 2022 14:03:17 GMT
+	Connection: keep-alive
+	
+	
+####################################################################################################
+
+Informations à propos de la trame n.25
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (72:3d:6d:da:c4:d9)
+	Destination : (72:3d:6d:da:c4:d9)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 192.168.57.53, Dst: 92.122.50.59
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0x3c93 (15507)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 192.168.57.53
+	Destination Adress : 92.122.50.59
+
+Transmission Control Protocol, Src Port : 63281, Dst Port = 80
+	Source Port : 63281
+	Destination Port : 80
+	Sequence Number (raw) : 2823269041
+	Acknowledgment Number (raw) : 2763434588
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x010 (ACK) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 259
+	Checksum : 0x88ad
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.26
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (72:3d:6d:da:c4:d9)
+	Destination : (72:3d:6d:da:c4:d9)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 192.168.57.53, Dst: 92.122.50.59
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0x3c94 (15508)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 192.168.57.53
+	Destination Adress : 92.122.50.59
+
+Transmission Control Protocol, Src Port : 63281, Dst Port = 80
+	Source Port : 63281
+	Destination Port : 80
+	Sequence Number (raw) : 2823269041
+	Acknowledgment Number (raw) : 2763434588
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x011 (ACK) (FIN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...1 = Fin : Set
+	Window : 259
+	Checksum : 0x88ad
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.27
+
+ETHERNET II, Src : (72:3d:6d:da:c4:d9), Dst : (08:71:90:c5:51:16)
+	Destination : (08:71:90:c5:51:16)
+	Source : (72:3d:6d:da:c4:d9)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 92.122.50.59, Dst: 192.168.57.53
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0x7d57 (32087)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 55
+	Protocol : TCP (6)
+	Header Checksum : 0x3de6
+	Source Adress : 92.122.50.59
+	Destination Adress : 192.168.57.53
+
+Transmission Control Protocol, Src Port : 80, Dst Port = 63281
+	Source Port : 80
+	Destination Port : 63281
+	Sequence Number (raw) : 2763434588
+	Acknowledgment Number (raw) : 2823269042
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x011 (ACK) (FIN) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...1 = Fin : Set
+	Window : 501
+	Checksum : 0x8bbc
+	Urgent Pointer : 0
+
+####################################################################################################
+
+Informations à propos de la trame n.28
+
+ETHERNET II, Src : (08:71:90:c5:51:16), Dst : (72:3d:6d:da:c4:d9)
+	Destination : (72:3d:6d:da:c4:d9)
+	Source : (08:71:90:c5:51:16)
+	Type : IPv4 (0x0800)
+
+Internet Protocol Version 4, Src : 192.168.57.53, Dst: 92.122.50.59
+	0100 .... = Version : 4
+	.... 0101 = Header Length : 20 (5)
+	Differentiated Services Field : 0x00
+	Total Length : 40
+	Identification : 0x3c95 (15509)
+	Flags : 0x40, Don't fragment
+		0... .... = Reserved bit : Not set
+		.1.. .... = Don't fragment : Set
+		..0. .... = More fragments : Not set
+	Fragment Offset : 0
+	Time to Live : 128
+	Protocol : TCP (6)
+	Header Checksum : 0x0000
+	Source Adress : 192.168.57.53
+	Destination Adress : 92.122.50.59
+
+Transmission Control Protocol, Src Port : 63281, Dst Port = 80
+	Source Port : 63281
+	Destination Port : 80
+	Sequence Number (raw) : 2823269042
+	Acknowledgment Number (raw) : 2763434589
+	0101 .... = Header Length : 20 bytes (5)
+	Flags : 0x010 (ACK) 
+		000. .... .... = Reserved : Not set
+		...0 .... .... = Nonce : Not set
+		.... 0... .... = Congestion Window Reduced (CWR) : Not set
+		.... .0.. .... = ECN-Echo : Not set
+		.... ..0. .... = Urgent : Not set
+		.... ...1 .... = Acknowledgment : Set
+		.... .... 0... = Push : Not set
+		.... .... .0.. = Reset : Not set
+		.... .... ..0. = Syn : Not set
+		.... .... ...0 = Fin : Not set
+	Window : 259
+	Checksum : 0x88ad
+	Urgent Pointer : 0

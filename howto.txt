@@ -1,0 +1,7 @@
+Installer le jdk de oracle sur votre ordinateur.
+
+	###Execution:
+
+	-Mettre dans le fichier .txt dans le meme repertoire que l'executable reseau.jar
+	-aller dans le terminal et se positionner sur le bon repertoire.
+	-lancer la commande: java -jar reseau.jar <<fichier.txt>>
